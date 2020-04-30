@@ -69,7 +69,7 @@ public class RestaurantController {
 
       float avgRating = 0;
       if( sumRating > 0 ) {
-        avgRating = sumRating / reviews.size();
+        avgRating = (float)sumRating / (float)reviews.size();
       }
 
       if( avgRating > bestRestaurant.getAvgReview() ) {
