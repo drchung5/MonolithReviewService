@@ -42,3 +42,6 @@ curl --location --request GET 'http://localhost:8080/reviews/restaurant/1'
 
 ## Get best restaurant by category
 curl --location --request GET 'localhost:8080/restaurants/best?cuisine_id=1'
+
+### Access Swagger UI (in a browser)
+http://localhost:8080/swagger-ui.html
